@@ -48,3 +48,27 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyDfnma9kflXsDRsg7s96VZOgKfKmG20tbE",
+  authDomain: "exploreapp-62634.firebaseapp.com",
+  projectId: "exploreapp-62634",
+  storageBucket: "exploreapp-62634.appspot.com",
+  messagingSenderId: "278388057631",
+  appId: "1:278388057631:web:c1a0bd26b09ffe691f172a",
+  measurementId: "G-6ZGG4VEQML"
+};
+
+// Initialize Firebase
+export const app = initializeApp(firebaseConfig);
+//const analytics = getAnalytics(app);
+
+EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_cmVzdGVkLW9zdHJpY2gtNTcuY2xlcmsuYWNjb3VudHMuZGV2JA
